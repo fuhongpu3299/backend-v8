@@ -195,7 +195,7 @@ jobs:
     - uses: actions/upload-artifact@v2
       with:
         name: v8_bin
-        path: /v8/v8/output/**/*
+        path: ~/v8/v8/output/**/*
   
   #build_ios_simulator:
   #  name: iOS simulator
